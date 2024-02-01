@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm install && react-scripts build",
+    "build": "react-scripts build",
+    "build:prod": "PUBLIC_URL=https://viewfile.onrender.com react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
